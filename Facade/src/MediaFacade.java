@@ -2,8 +2,8 @@ import mediaPlayers.AudioPlayer;
 import mediaPlayers.VideoPlayer;
 
 public class MediaFacade {
-    private AudioPlayer audioPlayer;
-    private VideoPlayer videoPlayer;
+    private final AudioPlayer audioPlayer;
+    private final VideoPlayer videoPlayer;
 
     public MediaFacade() {
         audioPlayer = new AudioPlayer();
